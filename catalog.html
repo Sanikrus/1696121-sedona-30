@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Информация</a></li>
+                <li><a href="blank.html">Фото и видео</a></li>
+                <li><a href="blank.html">Карта Штата</a></li>
+                <li><a href="#">Гостиницы </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>выбор жилья</h2>
+            <form method="get" action="index.html">
+                <fieldset>
+                    <legend>инфраструктура</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="бассейн" id="бассейн" chekced>
+                            <label for="бассейн">Бассейн</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="парковка" id="парковка" chekced>
+                            <label for="парковка">Парковка</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="wifi" id="wifi" chekced>
+                            <label for="wifi">WI-FI</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>тип жилья</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="гостиннциа" id="гостинница" chekced>
+                            <label for="гостинница">Гостинница</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="мотель" id="мотель" chekced>
+                            <label for="мотель">Мотель</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="апартаменты" id="апартаменты" chekced>
+                            <label for="апартаменты">Апартаменты</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Стоимость в стуки(Р)</legend>
+                    <ul>
+                        <li>
+                            <label for="цена"> (от 0 до 3000):</label>
+
+                            <input type="number" id="цена" name="цена" min="0" max="3000">
+                        </li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+        </section>
+        <section>
+            <h2>список мест для проживания</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Amara resrt & spa</h3>
+                        <p>гостиница</p>
+                        <a href="#">Подробнее</a>
+                        <p>4000 Р
+                            <button type="button>">Забронировать</button>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Desert quail inn</h3>
+                        <p>мотель</p>
+                        <a href="#">Подробнее</a>
+                        <p>4000 Р
+                            <button type="button>">Забронировать</button>
+                        </p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Villas at poco diablo</h3>
+                        <p>апартаменты</p>
+                        <a href="#">Подробнее</a>
+                        <p>4000 Р
+                            <button type="button>">Забронировать</button>
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+    </main>
+    <footer>
+        <section>
+            <h2>контакты</h2>
+            <p>#visitsedona</p>
+            <p>телефон: <a href="tel:+74956660166">+7(495) 666-01-66</a></p>
+        </section>
+        <section>
+            <h2>соцсети</h2>
+            <ul>
+                <li>
+                    <a href="#">Твиттер</a>
+                </li>
+                <li>
+                    <a href="#">Фейсбук</a>
+                </li>
+                <li>
+                    <a href="#">Ютуб</a>
+                </li>
+            </ul>
+        </section>
+
+        <p>Website by<a href="https://htmlacademy.ru/">HTML<br>Academy</a></p>
+    </footer>
+
+    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a
+            href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+
+</body>
+
+</html>
