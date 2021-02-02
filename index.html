@@ -35,44 +35,65 @@
                     <h3>Настоящий городок</h3>
                     <p>Седона-не атракцион для туристов, там течет своя жизнь</p>
                     <img src="img/image.jpg" width="800" height="256" alt="Изображение части города">
-                    <section>
-                        <ul>
-                            <li>
-                                <img src="img/icon-house.svg" width="75" height="72">
-                                <h3>Жилье</h3>
-                                <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-                            </li>
-                            <li>
-                                <img src="img/icon-burger.svg" width="75" height="70">
-                                <h3>Еда</h3>
-                                <p>Всегда заказывайте фирменный бургер вы не разочаруетесь</p>
-                            </li>
-                            <li>
-                                <img src="img/icon-gift.svg" width="64" height="77">
-                                <h3>Сувениры</h3>
-                                <p>Не только Китайского, но и местного производства</p>
-                            </li>
+                    <ul>
+                        <li>
+                            <img src="img/icon-house.svg" width="75" height="72">
+                            <h3>Жилье</h3>
+                            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                        </li>
+                        <li>
+                            <img src="img/icon-burger.svg" width="75" height="70">
+                            <h3>Еда</h3>
+                            <p>Всегда заказывайте фирменный бургер вы не разочаруетесь</p>
+                        </li>
+                        <li>
+                            <img src="img/icon-gift.svg" width="64" height="77">
+                            <h3>Сувениры</h3>
+                            <p>Не только Китайского, но и местного производства</p>
+                        </li>
                 </li>
                 </ul>
+                <li>
+                    <h3>Там есть мост дьявола</h3>
+                    <p>Да, по нему можно пройти! Если кончено вы осмелитесь</p>
+                    <img src="img/image1.jpg" width="800" height="256" alt="Фотография моста дьявола">
+                </li>
+                <li>
+                    <h3>Небольшая площадь</h3>
+                    <p>Все достопримечательности находятся очень близко</p>
+                </li>
+                <li>
+                    <h3>Красивая дорога</h3>
+                    <p>Ехать в седону из лас-вегаса совсем не скучно</p>
+                </li>
+                <li>
+                    <h3>Мало туристов</h3>
+                    <p>Большинство едет в гранд-каньон и толпится там</p>
+                </li>
+            </ol>
         </section>
-        <li>
-            <h3>Там есть мост дьявола</h3>
-            <p> Да, по нему можно пройти! если кончено вы осмелитесь</p>
-            <img src="img/image1.jpg" width="800" height="256" alt="Фотография моста дьявола">
-        </li>
-        <li>
-            <h3>Небольшая площадь</h3>
-            <p> Все достопримечательности находятся очень близко</p>
-        </li>
-        <li>
-            <h3>Красивая дорога</h3>
-            <p> Ехать в седону из лас-вегаса совсем не скучно</p>
-        </li>
-        <li>
-            <h3>Мало туристов</h3>
-            <p> Большинство едет в гранд-каньон и толпится там</p>
-        </li>
-        </ol>
+        <section>
+            <p>Заинтересовались?</p>
+            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+            <form method="get"https://echo.htmlacademy.ru/"
+                <label for="ariival">Дата заезда:</label>
+                <button type="button">календарь</button>
+                <input type="text" id="ariival" name="ariival" value="24 апреля 2017" min="2017-01-01" max="2021-12-31">
+                <label for="departure">Дата выезда:</label>
+                <button type="button">календарь</button>
+                <input type="text" id="departure" name="departure" value="4 июня 2017" min="2017-01-01"
+                    max="2021-12-31"><br>
+                <label for="adult">Взрослые</label>
+
+                <button type="button">-</button>
+                <button type="button">+</button>
+                <input type="number" id="adult" name="adult" value="2" min="1" max="10" <label for="child">Дети</label>
+                <button type="button">-</button>
+                <button type="button">+</button>
+
+                <input type="number" id="child" name="child" value="0" min="0" max="10" <p><button
+                    type="submit">Найти</button></p>
+            </form>
         </section>
         <section class='map>' </section>
     </main>
@@ -103,29 +124,7 @@
             </ul>
         </div>
         <div>Website by<a href="https://htmlacademy.ru/intensive/htmlcss">HTML<br>Academy</a></div>
-        <section>
-            <p>Заинтересовались?</p>
-            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        </section>
-        <section>
-            <form>
-                <label for="заезд">Дата заезда:</label>
 
-                <input type="text" id="ariival" name="Дата заезда" value="24 апреля 2017" min="2017-01-01"
-                    max="2021-12-31">
-                <label for="выезд">Дата выезда:</label>
-
-                <input type="text" id="departure" name="Дата выезда" value="4 июня 2017" min="2017-01-01"
-                    max="2021-12-31"><br>
-                <label for="взрослые">Взрослые</label>
-
-                <input type="number" id="adult" name="взрослые" value="2" min="1" max="10" <label
-                    for="дети">Дети</label>
-
-                <input type="number" id="child" name="дети" value="0" min="0" max="10" <p><button
-                    type="submit">Найти</button></p>
-            </form>
-        </section>
     </footer>
 </body>
 
