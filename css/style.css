@@ -1,0 +1,21 @@
+.square {
+    width: 46px;
+    height: 48px;
+    background-color: #81B3D2;
+    padding-left: 28px;
+    padding-top: 20px;
+}
+.square1 {
+    width: 46px;
+    height: 48px;
+    background-color: #81B3D2;
+    padding-left: 28px;
+    padding-top: 25px;
+}
+.square2 {
+    width: 46px;
+    height: 48px;
+    background-color: #81B3D2;
+    padding-left: 28px;
+    padding-top: 28px;
+}
